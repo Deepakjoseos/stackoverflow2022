@@ -1,0 +1,45 @@
+.bot{
+  z-index: 2;
+  position: fixed;
+  left: 61.7%;
+  padding: 2rem 2rem;
+  bottom: 1rem;
+}
+.chat_wrap{
+    z-index: 2;
+    position: fixed;
+    left: 90%;
+    bottom: 2rem;
+}
+.chat_icon{
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    font-size: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    color: white;
+  background-color: blueviolet;
+}
+
+
+
+/*------MEDIA QUERIES(MEDIUM DEVICES)------*/
+
+@media screen and (max-width: 1024px) {
+.chat_wrap{
+  width: var(--container-width-md);
+  left: 57%;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .chat_wrap {
+    width: var(--container-width-sm);
+
+  }
+  .bot{
+  left: 50%;
+  bottom: 5rem;
+
+}
+}
